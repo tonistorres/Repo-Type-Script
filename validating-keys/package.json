@@ -1,0 +1,16 @@
+{
+  "name": "validating-keys",
+  "version": "1.0.0",
+  "description": "![Tux, the Linux mascot](/ts.png)",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
