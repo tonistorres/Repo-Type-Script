@@ -24,3 +24,23 @@ function imprimeEndereco(tp) {
     console.log(`Rua: ${tp.rua} Casa:${tp.casa} Complemento ${tp.complemento}`);
 }
 imprimeEndereco({ rua: 'Dico Veiga', casa: 35 });
+// type Unions
+function estadoMateria(tp) {
+    console.log(`O Estado da materia escolhido foi ${tp}`);
+}
+estadoMateria('gaseous');
+estadoMateria('liquid');
+estadoMateria('solid');
+function cpfTypeDifferent(tp) {
+    if (typeof (tp) === 'number') {
+        console.log(`A digitação foi efetuada de forma numerica`);
+    }
+    else if (typeof (tp) === 'string') {
+        console.log('A digitação foi uma string');
+    }
+    else {
+        console.log('tipo não detectado pela função');
+    }
+}
+cpfTypeDifferent('642.015.623-87');
+cpfTypeDifferent(64201562387);

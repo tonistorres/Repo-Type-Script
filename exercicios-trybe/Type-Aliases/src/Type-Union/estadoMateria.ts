@@ -1,0 +1,1 @@
+export type StatesOfMatter = "liquid" | "solid" | "gaseous";
