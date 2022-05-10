@@ -1,0 +1,17 @@
+{
+  "name": "convert-type-script",
+  "version": "1.0.0",
+  "description": "![Tux, the Linux mascot](/ts.png)",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/node": "^17.0.31"
+  }
+}
