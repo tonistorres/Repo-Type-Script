@@ -21,7 +21,7 @@ class Casa {
         this._endereco = endereco;
     }
 
-    calculoIPTU(){
+    calculoIPTU():string{
         let result:number;
         result=this._iptu * 10*78.5;
         return `Aqui um calculo ficticio IPTU ${result}`

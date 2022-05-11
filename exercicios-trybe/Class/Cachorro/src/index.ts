@@ -20,13 +20,13 @@ class Cachorro {
 
     // métodos 
 
-    calculoDeVidaDia(){
+    calculoDeVidaDia():string{
         let resultado:number ;
         resultado=this._idade*365;
         return `O Cachorro ${this._nome} já viveu aproximadamente ${resultado} dia(s)`
     }
 
-    calculoDeVidaHoras(){
+    calculoDeVidaHoras():string{
         let resultado:number;
         resultado=this._idade *365*24;
         return `O Cachorro ${this._nome} já viveu aproximadamente ${resultado} Hora(s)`
