@@ -1,0 +1,1 @@
+export type SistemasOperacionais = 'Linux' | 'Mac' | 'Windows';

@@ -44,3 +44,9 @@ function cpfTypeDifferent(tp) {
 }
 cpfTypeDifferent('642.015.623-87');
 cpfTypeDifferent(64201562387);
+function sistemasOperacionais(tp) {
+    console.log(`O sistema escolhido foi ${tp}`);
+}
+sistemasOperacionais('Linux');
+sistemasOperacionais('Mac');
+sistemasOperacionais('Windows');

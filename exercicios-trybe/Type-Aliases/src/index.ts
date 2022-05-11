@@ -4,7 +4,7 @@ import * as Sum from './type-soma';
 import * as Endereco from './type-endereco';
 import * as EstadoMateriaUnions from './Type-Union/estadoMateria';
 import * as CPFUnions from './Type-Union/cpf-text-number';
-
+import * as SistemasUnions from './Type-Union/sistemas-operacionais';
 
 function printCoord(pt: Aliases.Point) {
   console.log("O valor da cordenada x é: " + pt.x);
@@ -65,3 +65,13 @@ function cpfTypeDifferent(tp: CPFUnions.CPF) {
 
 cpfTypeDifferent('642.015.623-87');
 cpfTypeDifferent(64201562387);
+
+
+function sistemasOperacionais(tp:SistemasUnions.SistemasOperacionais){
+console.log(`O sistema escolhido foi ${tp}`);
+
+}
+
+sistemasOperacionais('Linux');
+sistemasOperacionais('Mac');
+sistemasOperacionais('Windows');
